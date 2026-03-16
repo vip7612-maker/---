@@ -125,6 +125,24 @@ function initDates() {
     if (playerDate) playerDate.textContent = dateStr;
 }
 
+// ──────── 고정 네비게이션 ────────
+function initStickyNav() {
+    const nav = document.getElementById('sticky-nav');
+    if (!nav) return;
+
+    let lastScrollY = 0;
+
+    window.addEventListener('scroll', () => {
+        const currentScrollY = window.scrollY;
+        if (currentScrollY > 60) {
+            nav.classList.add('scrolled');
+        } else {
+            nav.classList.remove('scrolled');
+        }
+        lastScrollY = currentScrollY;
+    });
+}
+
 // ──────── 오디오 플레이어 ────────
 function initAudioPlayer() {
     const audio = document.getElementById('audio-element');
@@ -137,55 +155,57 @@ function initAudioPlayer() {
     const currentTimeEl = document.getElementById('current-time');
     const totalTimeEl = document.getElementById('total-time');
 
-    let isPlaying = false;
-    // 데모용: 오디오 파일이 없으므로 5분(300초)으로 초기화
-    const demoDuration = 300;
+    // 오디오 메타데이터 로드 시 전체 시간 표시
+    audio.addEventListener('loadedmetadata', () => {
+        totalTimeEl.textContent = formatTime(audio.duration);
+    });
 
-    totalTimeEl.textContent = formatTime(demoDuration);
-
+    // 재생/일시정지
     playBtn.addEventListener('click', () => {
-        isPlaying = !isPlaying;
-        if (isPlaying) {
-            playIcon.style.display = 'none';
-            pauseIcon.style.display = 'block';
-            // 실제 오디오가 있다면:
-            // audio.play();
+        if (audio.paused) {
+            audio.play().catch(err => {
+                console.warn('오디오 재생 실패:', err);
+            });
         } else {
-            playIcon.style.display = 'block';
-            pauseIcon.style.display = 'none';
-            // audio.pause();
+            audio.pause();
         }
     });
 
-    // 실제 오디오 이벤트
+    audio.addEventListener('play', () => {
+        playIcon.style.display = 'none';
+        pauseIcon.style.display = 'block';
+    });
+
+    audio.addEventListener('pause', () => {
+        playIcon.style.display = 'block';
+        pauseIcon.style.display = 'none';
+    });
+
+    // 진행률 업데이트
     audio.addEventListener('timeupdate', () => {
         if (audio.duration) {
             const pct = (audio.currentTime / audio.duration) * 100;
             progressFill.style.width = pct + '%';
             progressKnob.style.left = pct + '%';
             currentTimeEl.textContent = formatTime(audio.currentTime);
-            totalTimeEl.textContent = formatTime(audio.duration);
         }
     });
 
+    // 재생 종료
     audio.addEventListener('ended', () => {
-        isPlaying = false;
         playIcon.style.display = 'block';
         pauseIcon.style.display = 'none';
+        progressFill.style.width = '0%';
+        progressKnob.style.left = '0%';
+        currentTimeEl.textContent = '0:00';
     });
 
     // 프로그레스바 클릭 → 시간 이동
     progressBar.addEventListener('click', (e) => {
+        if (!audio.duration) return;
         const rect = progressBar.getBoundingClientRect();
         const pct = (e.clientX - rect.left) / rect.width;
-        if (audio.duration) {
-            audio.currentTime = pct * audio.duration;
-        }
-        // 데모: 시각적 업데이트만 수행
-        const clampedPct = Math.min(Math.max(pct * 100, 0), 100);
-        progressFill.style.width = clampedPct + '%';
-        progressKnob.style.left = clampedPct + '%';
-        currentTimeEl.textContent = formatTime(pct * demoDuration);
+        audio.currentTime = pct * audio.duration;
     });
 }
 
@@ -233,9 +253,57 @@ function renderGallery() {
     });
 }
 
+// ──────── CTA 폼 제출 ────────
+function initCTAForm() {
+    const form = document.getElementById('cta-form');
+    if (!form) return;
+
+    // 전화번호 자동 포맷
+    const phoneInput = document.getElementById('cta-phone');
+    if (phoneInput) {
+        phoneInput.addEventListener('input', (e) => {
+            let value = e.target.value.replace(/\D/g, '');
+            if (value.length > 11) value = value.slice(0, 11);
+            if (value.length >= 8) {
+                value = value.replace(/(\d{3})(\d{4})(\d{0,4})/, '$1-$2-$3');
+            } else if (value.length >= 4) {
+                value = value.replace(/(\d{3})(\d{0,4})/, '$1-$2');
+            }
+            e.target.value = value;
+        });
+    }
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const name = document.getElementById('cta-name').value;
+        const email = document.getElementById('cta-email').value;
+        const phone = document.getElementById('cta-phone').value;
+        const brand = document.getElementById('cta-brand').value;
+
+        const subject = encodeURIComponent(`[뉴스레터 신청] ${name}님의 나만의 뉴스레터`);
+        const body = encodeURIComponent(
+            `이름: ${name}\n이메일: ${email}\n연락처: ${phone}\n\n브랜드/주제:\n${brand}`
+        );
+
+        window.location.href = `mailto:vip7612@gmail.com?subject=${subject}&body=${body}`;
+
+        // 성공 피드백
+        const btn = form.querySelector('.cta-submit-btn');
+        const originalText = btn.innerHTML;
+        btn.innerHTML = '✅ 신청 메일이 준비되었습니다!';
+        btn.style.background = 'linear-gradient(135deg, #059669, #10b981)';
+        setTimeout(() => {
+            btn.innerHTML = originalText;
+            btn.style.background = '';
+        }, 3000);
+    });
+}
+
 // ──────── 초기화 ────────
 document.addEventListener('DOMContentLoaded', () => {
     initDates();
+    initStickyNav();
     initAudioPlayer();
     renderGallery();
+    initCTAForm();
 });

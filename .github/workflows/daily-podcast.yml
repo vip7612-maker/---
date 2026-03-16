@@ -1,0 +1,40 @@
+name: Daily Podcast Generator
+
+on:
+  schedule:
+    # UTC 20:00 = KST 05:00 (다음날)
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+    # 수동 실행 가능
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      
+      - name: Generate daily podcast
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/generate_podcast.py
+      
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/podcast/latest.mp3 data/curated.json
+          git diff --staged --quiet || git commit -m "🎙️ 데일리 팟캐스트 자동 생성 ($(TZ=Asia/Seoul date '+%Y-%m-%d'))"
+          git push

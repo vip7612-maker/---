@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>관리자 – 이교장 뉴스레터</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+
+    <!-- ========== 사이드바 ========== -->
+    <aside id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <a href="/" class="sidebar-brand">
+                <span>📰</span>
+                <span>이교장 뉴스레터</span>
+            </a>
+            <span class="sidebar-badge">관리자</span>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="#" class="nav-item active" data-section="keywords">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="4" y1="9" x2="20" y2="9"></line>
+                    <line x1="4" y1="15" x2="20" y2="15"></line>
+                    <line x1="10" y1="3" x2="8" y2="21"></line>
+                    <line x1="16" y1="3" x2="14" y2="21"></line>
+                </svg>
+                키워드 관리
+            </a>
+            <a href="#" class="nav-item" data-section="podcast">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+                    <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+                    <line x1="12" y1="19" x2="12" y2="23"></line>
+                    <line x1="8" y1="23" x2="16" y2="23"></line>
+                </svg>
+                팟캐스트 설정
+            </a>
+            <a href="#" class="nav-item" data-section="subscribers">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+                구독자 관리
+            </a>
+            <a href="#" class="nav-item" data-section="brand">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                </svg>
+                브랜드 설정
+            </a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <a href="/" class="nav-item">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M15 18l-6-6 6-6"></path>
+                </svg>
+                뉴스레터로 돌아가기
+            </a>
+        </div>
+    </aside>
+
+    <!-- ========== 모바일 헤더 ========== -->
+    <header class="mobile-header">
+        <button id="menu-toggle" class="menu-toggle" aria-label="메뉴">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </button>
+        <span class="mobile-title">관리자</span>
+    </header>
+
+    <!-- ========== 메인 콘텐츠 ========== -->
+    <div id="main-content" class="main-content">
+
+        <!-- 키워드 관리 섹션 -->
+        <section id="section-keywords" class="admin-section active">
+            <div class="section-top">
+                <div>
+                    <h1>키워드 관리</h1>
+                    <p class="section-desc">뉴스 수집에 사용할 키워드를 등록하세요. 매일 아침 5시에 이 키워드로 최신 뉴스를 검색합니다.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>📌 등록된 키워드</h3>
+                    <span class="keyword-count" id="keyword-count">0개</span>
+                </div>
+                <div id="keywords-list" class="keywords-list">
+                    <!-- JavaScript로 렌더링 -->
+                </div>
+                <div class="keyword-add-form">
+                    <input type="text" id="new-keyword" placeholder="새 키워드를 입력하세요" maxlength="30">
+                    <button id="add-keyword-btn" class="btn btn-primary">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                        추가
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>⏰ 자동화 상태</h3>
+                </div>
+                <div class="automation-status">
+                    <div class="status-item">
+                        <span class="status-label">다음 실행 시간</span>
+                        <span class="status-value" id="next-run">내일 오전 5:00</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">마지막 업데이트</span>
+                        <span class="status-value" id="last-updated">-</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">TTS 음성</span>
+                        <span class="status-value">한국어 여성 (SunHi)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 팟캐스트 설정 섹션 -->
+        <section id="section-podcast" class="admin-section">
+            <div class="section-top">
+                <h1>팟캐스트 설정</h1>
+                <p class="section-desc">팟캐스트 음성, 길이, 스타일 등을 설정합니다.</p>
+            </div>
+            <div class="card">
+                <div class="card-header"><h3>🎙️ 음성 설정</h3></div>
+                <div class="form-group">
+                    <label for="voice-select">TTS 음성</label>
+                    <select id="voice-select" class="form-select">
+                        <option value="ko-KR-SunHiNeural" selected>🇰🇷 한국어 여성 (SunHi)</option>
+                        <option value="ko-KR-InJoonNeural">🇰🇷 한국어 남성 (InJoon)</option>
+                        <option value="ko-KR-HyunsuNeural">🇰🇷 한국어 남성 (Hyunsu)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="duration-select">팟캐스트 길이</label>
+                    <select id="duration-select" class="form-select">
+                        <option value="2">2분 (짧은 요약)</option>
+                        <option value="3" selected>3분 (기본)</option>
+                        <option value="5">5분 (상세)</option>
+                    </select>
+                </div>
+                <button class="btn btn-primary" id="save-podcast-settings">설정 저장</button>
+            </div>
+        </section>
+
+        <!-- 구독자 관리 섹션 -->
+        <section id="section-subscribers" class="admin-section">
+            <div class="section-top">
+                <h1>구독자 관리</h1>
+                <p class="section-desc">뉴스레터를 문자 또는 이메일로 받는 구독자를 관리합니다.</p>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>👥 구독자 목록</h3>
+                    <button class="btn btn-outline" id="add-subscriber-btn">+ 구독자 추가</button>
+                </div>
+                <div class="subscriber-stats">
+                    <div class="stat-card">
+                        <span class="stat-number" id="total-subscribers">0</span>
+                        <span class="stat-label">전체 구독자</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="email-subscribers">0</span>
+                        <span class="stat-label">이메일 구독</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="sms-subscribers">0</span>
+                        <span class="stat-label">문자 구독</span>
+                    </div>
+                </div>
+                <div id="subscribers-list" class="subscribers-list">
+                    <p class="empty-state">아직 등록된 구독자가 없습니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 브랜드 설정 섹션 -->
+        <section id="section-brand" class="admin-section">
+            <div class="section-top">
+                <h1>브랜드 설정</h1>
+                <p class="section-desc">뉴스레터의 브랜드 정보를 커스터마이즈합니다.</p>
+            </div>
+            <div class="card">
+                <div class="card-header"><h3>🎨 브랜드 정보</h3></div>
+                <div class="form-group">
+                    <label for="brand-name">뉴스레터 이름</label>
+                    <input type="text" id="brand-name" class="form-input" value="이교장 뉴스레터">
+                </div>
+                <div class="form-group">
+                    <label for="brand-tagline">태그라인</label>
+                    <input type="text" id="brand-tagline" class="form-input" value="매일 아침, 당신에게 꼭 맞는 뉴스 큐레이션">
+                </div>
+                <div class="form-group">
+                    <label for="brand-email">연락처 이메일</label>
+                    <input type="email" id="brand-email" class="form-input" value="vip7612@gmail.com">
+                </div>
+                <button class="btn btn-primary" id="save-brand-settings">설정 저장</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- 모바일 오버레이 -->
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>

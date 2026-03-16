@@ -1,0 +1,5 @@
+edge-tts
+feedparser
+beautifulsoup4
+requests
+openai
