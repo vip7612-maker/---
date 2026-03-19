@@ -1,95 +1,95 @@
 {
-  "date": "2026-03-19",
+  "date": "2026-03-20",
   "items": [
     {
-      "title": "\"베트남 한국어 교육 올비아로\"…K-에듀테크 글로벌 진출",
-      "description": "MTN 머니투데이방송에서 보도한 뉴스입니다.",
+      "title": "울산폴리텍대 ‘피지컬 AI 교육’으로 대전환",
+      "description": "경상일보에서 보도한 뉴스입니다.",
       "thumbnail": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&h=340&fit=crop",
       "badge": "core",
       "score": 98,
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ucVVKQjBvM2l0d3RBOTR2Vi1YVUNpalZNUWRFMkFFZHlKQ3N4akFVRnR4Y1h1SHdLa1ZJcmN5eEhTVTQwVU81b0JhR0JfSXRVeHY5ajFuejk4NnZDRlpRcHZCUmE?oc=5",
-      "source": "MTN 머니투데이방송"
-    },
-    {
-      "title": "울산폴리텍대, '피지컬 AI 교육 중심' 선포…핵심 기술인 양성",
-      "description": "뉴시스에서 보도한 뉴스입니다.",
-      "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=340&fit=crop",
-      "badge": "core",
-      "score": 95,
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE91b3lCbDVHakc3UHViLXVQTUFGdndnbmRhMFlhQW91c2pGV0NjYmVLYS1OVDdCaVhydkdla2puSXpVNHlnYXo4UGU4cTRacFlTWUpmaXJXaFB4NFRreUpua9IBeEFVX3lxTFBzcEI1aGJYWjJ5MWQzM1EzTGRTdi0wUGpfV1VreEdPREFpcGhBUHdSM19MQVAxSHowMURlQWYwVDg4bklxZEdmVzU4Q1k3c1BHd0U5MGx5a0lWV0FOcWhKNWpjMzlaQzFFeHNvTF9FQXhNNEJpQUQtNg?oc=5",
-      "source": "뉴시스"
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaSFdDSFNiMnlKQ2dIb01GOUNvN3Bybm1VaTNMWWI5dkVPSmRZREZITi10SlZsUGVUazQyd0tvZjdoclBOZVlWcThKVkVRZ3N3RVZaaXpDTXVzaEFtQzZ3OERyQnctMFpGaGZ2Qg?oc=5",
+      "source": "경상일보"
     },
     {
       "title": "한림대·춘천교대, 고등교육 에듀테크 소프트랩 구축 '맞손'",
       "description": "연합뉴스에서 보도한 뉴스입니다.",
-      "thumbnail": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=340&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=340&fit=crop",
       "badge": "core",
-      "score": 92,
+      "score": 95,
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HRThUZi12SkdHbURqTHVtdU1NOFJjckI2cGNrNU9fWElvTHFPUWMtQmt3RnhBdjJXTVdsWTlNU2RKMmtCMkFmbFMyb0FGOFUwSThxZG93UXlUT03SAWBBVV95cUxNVnVCUXZ1clk3ZnBLMVNNZmlKMFkzbEhkTDFRNFR2bTNpeU1YOXcxVGtwN2hkVUJmbEltcVlPcXdOcWNfY185bFFlb1VLWHRFWXBMb0ZfRmNJM1BQMTB4c0g?oc=5",
       "source": "연합뉴스"
     },
     {
       "title": "한림대·춘천교대, AI 기반 고등교육 혁신 협력…에듀테크 확산",
       "description": "전자신문에서 보도한 뉴스입니다.",
-      "thumbnail": "https://images.unsplash.com/photo-1588072432836-e10032774350?w=600&h=340&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=340&fit=crop",
       "badge": "core",
-      "score": 89,
+      "score": 92,
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBFeDdmZUFteU03andPbjBNXzUyUmNKTE5LY0c4OXJ4OGdLd3c3SkhvR2dXbkJIcXAtM3ZTNE1hb1BiX2dLejFSQVZKbGxrUQ?oc=5",
       "source": "전자신문"
     },
     {
-      "title": "인공지능 중점학교 1141곳 선정 AI 수업 확대 등 385억 지원",
-      "description": "대한민국 정책브리핑에서 보도한 뉴스입니다.",
-      "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=340&fit=crop",
-      "badge": "ref",
-      "score": 86,
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaEwwUFQybWtXQU94MFZlM0R6RjN1ME5DWVFpSlJrZ09aMWZHNFUzQnVycnNFRFJPN2RZR1Z1UGtva001UlFQNGVrU25CQnVxTkFRVjRsTUNYZjk2NkhTNUpqYk5xbGE3WUNWbjJEQlFOUWY0ZE05am1aU3Q4V3Rha1pkRW5oQnZ5N0E?oc=5",
-      "source": "대한민국 정책브리핑"
-    },
-    {
-      "title": "한림대학교–춘천교육대, 고등교육 에듀테크 소프트랩 구축 및 운영을 위한 컨소시엄(KELI) 협약 체결",
-      "description": "베리타스알파에서 보도한 뉴스입니다.",
-      "thumbnail": "https://images.unsplash.com/photo-1655720828018-edd71de41e19?w=600&h=340&fit=crop",
-      "badge": "ref",
-      "score": 83,
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBhc3FqS1RrdTdFS1lia3AwT1ZBTzNweWJmQVRaZl9IbkFuemJRUW9YZzF0cFM0S0hWNkNyWGVkakZUMWExM0I5RmFsUTJocFBGZ3ZPd2x5bmRkUS0yRGttWUdvTjFtQWFwUHRj?oc=5",
-      "source": "베리타스알파"
-    },
-    {
-      "title": "“AI 교육·인성교육 강화”…경북교육청, AI 종합계획 수립·추진",
-      "description": "뉴스1에서 보도한 뉴스입니다.",
-      "thumbnail": "https://images.unsplash.com/photo-1523050854058-8df90110c476?w=600&h=340&fit=crop",
-      "badge": "ref",
-      "score": 80,
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Mc0RlN01wZTZRSER5d29uRWtXNmRuQlBKYktRandYRGpvMFViOGVXX3hNZkR2Sy0xZlE4YXpxbWpsQ2VLeHU3dVJnYmEwbzhyLTdOelliaUF5ZjloT2M4?oc=5",
-      "source": "뉴스1"
-    },
-    {
       "title": "치엥뭉은 교육 분야에서 포괄적인 디지털 전환을 구현하고 있습니다.",
       "description": "Vietnam.vn에서 보도한 뉴스입니다.",
-      "thumbnail": "https://images.unsplash.com/photo-1626379953822-baec19c3accd?w=600&h=340&fit=crop",
-      "badge": "ref",
-      "score": 77,
+      "thumbnail": "https://images.unsplash.com/photo-1588072432836-e10032774350?w=600&h=340&fit=crop",
+      "badge": "core",
+      "score": 89,
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPXzJ2VzNFX3NSUGJ4TmtEeG5zRzJiemthd2Fmd3ZCT04ybUZvTU1zZGxIUFRJY2wzci1kVDRJV1lLV1ZMOGlyamhpWFZiSkVXeWZaYjRTZDVwQllNb2VpcVU0cW1tVW9VRk5JamVYd1RGenZxUFAxeUNYWXNIcV9pNG9B?oc=5",
       "source": "Vietnam.vn"
     },
     {
-      "title": "AI 에이전트 교육 수요 급증…크몽 검색량 7.5배·패캠 매출 90%↑",
-      "description": "서울경제신문에서 보도한 뉴스입니다.",
+      "title": "논산시, 인공지능(AI)활용 역량 교육 실시",
+      "description": "로이슈에서 보도한 뉴스입니다.",
+      "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=340&fit=crop",
+      "badge": "ref",
+      "score": 86,
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1fZGxLNG95cHptbVdSWHQzVV9HQXE0cVFBcmcyczlueDg3Zkp2NmtMZVhYVXBRaDJmLW9RWWlMcTdmajA5SGtLSW5iTDBUUmFUS2c0ZHBUZHN5MG1sYWtQTF9xMWFveDJad2FYUHNGSHVtQnFoQjZlaEtR?oc=5",
+      "source": "로이슈"
+    },
+    {
+      "title": "한국교통대-충주시 어린이날추진위, 에듀테크 확산 업무협약",
+      "description": "중도일보에서 보도한 뉴스입니다.",
+      "thumbnail": "https://images.unsplash.com/photo-1655720828018-edd71de41e19?w=600&h=340&fit=crop",
+      "badge": "ref",
+      "score": 83,
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE94R29ZekQtb3lUaUNhdnI4NWp0X3doV1FzcmtobnkxUlE3a1drSnZZdE8zT0FQdEJEWjZBeUIyTFhxNTNkRWZJekhtQ2M5NHc2TE5YajUxVG55ZTJ2ck50ZlJJR3U?oc=5",
+      "source": "중도일보"
+    },
+    {
+      "title": "한림대학교, 에듀테크 협의체 기술 교류회 개최",
+      "description": "교수신문에서 보도한 뉴스입니다.",
+      "thumbnail": "https://images.unsplash.com/photo-1523050854058-8df90110c476?w=600&h=340&fit=crop",
+      "badge": "ref",
+      "score": 80,
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NMWpVdUhHMVhlWGtrYi1ZdXVpRnBsYV9EczNxbF9nN09iMkphSkd2N2FkMm9jbzNENThJd2JZbjA2UC05WmdlaU5YYk5lT01uMHpaUHd6UDA0SmVYenZBOV9HQlNGd2s?oc=5",
+      "source": "교수신문"
+    },
+    {
+      "title": "정읍교육지원청, 정보교육지원단 모집…\"디지털 전환\"",
+      "description": "뉴시스에서 보도한 뉴스입니다.",
+      "thumbnail": "https://images.unsplash.com/photo-1626379953822-baec19c3accd?w=600&h=340&fit=crop",
+      "badge": "ref",
+      "score": 77,
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE96amZUeFJhcWZEVDJNMUZBVXBrSTd6NUNWNjgtc1hpSjcySDlDZ0tuMTBpUXJmTHZoSUdwUlV1bDRNNzNwUmprTUZuaUlQRUdoRW02ZjBwS0NEVFBUVTlradIBeEFVX3lxTFBuc2Z5QlZqa2QzOGFobFdQSXA3VmV4THp5SFBCMHZ2cEZCWWNvQ2MzZGl2UV9WSXdDenF3MEo0S1JXZW5ISnd6OFNYT05Ea2RBR2FpQkJDcG9XNzlkSF9FTEMwZFlUR21CUkdxd3hOVFV0cmtzdHJGWA?oc=5",
+      "source": "뉴시스"
+    },
+    {
+      "title": "에듀테크 전문기업 ‘스마트크리에이터’, ‘2026 AI 바우처’ 공급기업 2년 연속 선정…커머스 특화 솔루션 7종 공급",
+      "description": "beSUCCESS에서 보도한 뉴스입니다.",
       "thumbnail": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&h=340&fit=crop",
       "badge": "ref",
       "score": 74,
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1iUnFZQ0UxOGZwbmFCWE5HekticWlsTTlSalp3OF9aZFFReEdVbjJST1I3OWJaTmdDcDVDOEVmaV8wRG9rdHNJa0phaXNVQzlrb1HSAVNBVV95cUxPS0p2NW45cnM0YXFEZlZIZ20tMDFQcUdCc1BVLUpPZ1V1dlIya0dFa0YyVE84U2tGWHRnQkxTWkNUTEc5bGlTTXZoVnUyeWN0OXpwaw?oc=5",
-      "source": "서울경제신문"
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB3OWF2eDVOZTZDY2pWYzJ3RUloU0pHQ2RYOUJJTUhfZnlSQW9EamhfX2hYbzk0eFpCR0kyOWsta29IVHJCMVE?oc=5",
+      "source": "beSUCCESS"
     },
     {
-      "title": "도봉구, ‘RAIM 동행 로봇 발명프로그램’ 참여…초등생 대상 AI 교육 운영",
-      "description": "문화일보에서 보도한 뉴스입니다.",
+      "title": "멀티캠퍼스, 통합형 AX 교육 제시",
+      "description": "지디넷코리아에서 보도한 뉴스입니다.",
       "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=340&fit=crop",
       "badge": "ref",
       "score": 71,
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zVXhjRHlBcVRLOW9EN2pUemdHazIwWW00bnhZNkpmSXE4X3ZvZGdsLVR5MjZiZjVvTHRFSThkdTZKVGRjcG1WZlZYQlNxYy00?oc=5",
-      "source": "문화일보"
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5udVFmWWpwOS1GdGhPNDhtbzZrRmVGX1h5YlV2aWlDMHYxMmxWc2wtdEZ3VmwxdWZUdDMxWDc0dXFOZmp0bG9BR2xrUTFnaUpaRnZVbWZB?oc=5",
+      "source": "지디넷코리아"
     }
   ]
 }
