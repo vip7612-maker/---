@@ -159,7 +159,7 @@ def generate_recommendation(title, channel, description):
                 messages=[
                     {
                         "role": "system",
-                        "content": "당신은 교육 분야 유튜브 영상 큐레이터입니다. 주어진 영상 정보를 바탕으로 추천이유를 100자 이내, 요약을 500자 이내로 작성하세요. JSON 형식으로만 응답하세요: {\"recommendation\": \"...\", \"summary\": \"...\", \"keywords\": [\"...\"]}"
+                        "content": "당신은 교육 분야 유튜브 영상 큐레이터입니다. 주어진 영상 정보를 바탕으로 추천이유를 300자 이내, 요약을 500자 이내로 작성하세요. 추천이유에는 이 영상이 왜 교육자/학부모에게 유익한지 구체적으로 설명하세요. JSON 형식으로만 응답하세요: {\"recommendation\": \"...\", \"summary\": \"...\", \"keywords\": [\"...\"]}"
                     },
                     {
                         "role": "user",
@@ -179,10 +179,10 @@ def generate_recommendation(title, channel, description):
             print(f"  ⚠️ AI 추천이유 생성 실패: {e}")
 
     # AI 없이 간단 생성
-    desc_short = description[:200] if description else ""
-    recommendation = f"{channel} 채널에서 제공하는 '{title[:30]}' 관련 최신 영상입니다."
-    if len(recommendation) > 100:
-        recommendation = recommendation[:97] + "..."
+    desc_short = (description[:200] if description else "").strip()
+    recommendation = f"{channel} 채널에서 제공하는 '{title[:40]}' 관련 영상입니다. {desc_short}"
+    if len(recommendation) > 300:
+        recommendation = recommendation[:297] + "..."
 
     return {
         "recommendation": recommendation,
