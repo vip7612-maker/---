@@ -2,100 +2,6 @@
    이교장 뉴스레터 – App Logic
    ================================================== */
 
-// ──────── 샘플 큐레이션 데이터 ────────
-const CURATED_ITEMS = [
-    {
-        title: "AI가 바꾸는 교육의 미래 – 2026 트렌드 보고서",
-        description: "인공지능 기반 맞춤형 학습이 전 세계 교육 현장을 어떻게 변화시키고 있는지 분석합니다.",
-        thumbnail: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&h=340&fit=crop",
-        badge: "core",
-        score: 98,
-        url: "https://youtube.com",
-        source: "YouTube"
-    },
-    {
-        title: "구글, 차세대 Gemini 모델 공개 – 교육 분야 적용 확대",
-        description: "구글이 새롭게 발표한 AI 모델이 교육 현장에서 어떤 잠재력을 지니는지 살펴봅니다.",
-        thumbnail: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=340&fit=crop",
-        badge: "core",
-        score: 95,
-        url: "https://blog.google",
-        source: "Google Blog"
-    },
-    {
-        title: "학교 현장 디지털 전환 성공 사례 5가지",
-        description: "국내외 학교들이 디지털 도구를 활용해 수업 효율을 높인 실제 사례를 소개합니다.",
-        thumbnail: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=340&fit=crop",
-        badge: "core",
-        score: 92,
-        url: "https://example.com",
-        source: "EdTech Review"
-    },
-    {
-        title: "학부모가 알아야 할 AI 리터러시 교육",
-        description: "자녀의 AI 시대 역량을 키우기 위해 학부모가 미리 알아두면 좋은 핵심 포인트입니다.",
-        thumbnail: "https://images.unsplash.com/photo-1588072432836-e10032774350?w=600&h=340&fit=crop",
-        badge: "ref",
-        score: 88,
-        url: "https://example.com",
-        source: "교육신문"
-    },
-    {
-        title: "노코드 도구로 학급 관리 앱 만들기",
-        description: "교사가 직접 노코드 플랫폼을 활용해 출석, 과제 관리 앱을 만드는 방법을 안내합니다.",
-        thumbnail: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=340&fit=crop",
-        badge: "ref",
-        score: 85,
-        url: "https://example.com",
-        source: "YouTube"
-    },
-    {
-        title: "ChatGPT 활용 수업 설계 가이드",
-        description: "생성형 AI를 수업에 효과적으로 통합하는 단계별 설계 방법론을 제시합니다.",
-        thumbnail: "https://images.unsplash.com/photo-1655720828018-edd71de41e19?w=600&h=340&fit=crop",
-        badge: "core",
-        score: 91,
-        url: "https://example.com",
-        source: "교육 블로그"
-    },
-    {
-        title: "2026 대학 입시 트렌드 분석",
-        description: "올해 달라지는 대입 전형과 학생부 종합 평가의 핵심 변화를 정리했습니다.",
-        thumbnail: "https://images.unsplash.com/photo-1523050854058-8df90110c476?w=600&h=340&fit=crop",
-        badge: "ref",
-        score: 82,
-        url: "https://example.com",
-        source: "입시뉴스"
-    },
-    {
-        title: "메타버스 교실 – 가상현실 수업의 가능성",
-        description: "VR·AR 기술을 활용한 몰입형 교육 환경의 최신 동향과 한계를 살펴봅니다.",
-        thumbnail: "https://images.unsplash.com/photo-1626379953822-baec19c3accd?w=600&h=340&fit=crop",
-        badge: "ref",
-        score: 79,
-        url: "https://example.com",
-        source: "TechCrunch"
-    },
-    {
-        title: "교원 역량 강화를 위한 온라인 연수 플랫폼 비교",
-        description: "교사 전문성 개발에 활용할 수 있는 주요 온라인 학습 플랫폼 5곳을 비교 분석합니다.",
-        thumbnail: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&h=340&fit=crop",
-        badge: "ref",
-        score: 76,
-        url: "https://example.com",
-        source: "한국교육"
-    },
-    {
-        title: "프로젝트 기반 학습(PBL)의 AI 접목 전략",
-        description: "PBL 수업에 AI 도구를 융합하여 학생 주도적 탐구를 극대화하는 전략을 제안합니다.",
-        thumbnail: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=340&fit=crop",
-        badge: "core",
-        score: 89,
-        url: "https://example.com",
-        source: "교육연구원"
-    }
-];
-
 // ──────── 유틸리티 ────────
 function formatDate(date) {
     const year = date.getFullYear();
@@ -111,6 +17,13 @@ function formatTime(seconds) {
     const m = Math.floor(seconds / 60);
     const s = Math.floor(seconds % 60);
     return `${m}:${s.toString().padStart(2, '0')}`;
+}
+
+function formatViewCount(count) {
+    if (!count) return '';
+    if (count >= 10000) return `${(count / 10000).toFixed(1)}만회`;
+    if (count >= 1000) return `${(count / 1000).toFixed(1)}천회`;
+    return `${count}회`;
 }
 
 // ──────── 날짜 표시 ────────
@@ -209,47 +122,142 @@ function initAudioPlayer() {
     });
 }
 
+// ──────── 유튜브 큐레이션 데이터 로드 ────────
+let curatedItems = [];
+
+async function loadCuratedData() {
+    try {
+        const response = await fetch('data/youtube_curated.json');
+        if (!response.ok) throw new Error('데이터 로드 실패');
+        const data = await response.json();
+        curatedItems = data.items || [];
+        renderGallery();
+    } catch (err) {
+        console.warn('큐레이션 데이터 로드 실패:', err);
+        const gallery = document.getElementById('gallery');
+        if (gallery) {
+            gallery.innerHTML = `
+                <div class="gallery-empty">
+                    <span class="gallery-empty-icon">📺</span>
+                    <p>큐레이션 데이터를 불러올 수 없습니다.</p>
+                    <p class="gallery-empty-sub">잠시 후 다시 시도해주세요.</p>
+                </div>
+            `;
+        }
+    }
+}
+
 // ──────── 갤러리 렌더링 ────────
 function renderGallery() {
     const gallery = document.getElementById('gallery');
-    if (!gallery) return;
-
-    // 관심도 점수 내림차순 정렬
-    const sorted = [...CURATED_ITEMS].sort((a, b) => b.score - a.score);
+    if (!gallery || !curatedItems.length) return;
 
     gallery.innerHTML = '';
 
-    sorted.forEach((item, index) => {
-        const card = document.createElement('a');
+    curatedItems.forEach((item, index) => {
+        const card = document.createElement('div');
         card.className = 'gallery-card';
-        card.href = item.url;
-        card.target = '_blank';
-        card.rel = 'noopener noreferrer';
         card.style.animationDelay = `${index * 0.07}s`;
+        card.setAttribute('data-index', index);
 
-        const badgeClass = item.badge === 'core' ? 'badge-core' : 'badge-ref';
-        const badgeLabel = item.badge === 'core' ? '🎯 핵심' : '💡 참고';
+        const viewStr = formatViewCount(item.viewCount);
 
         card.innerHTML = `
             <div class="card-thumbnail">
-                <img src="${item.thumbnail}" alt="${item.title}" loading="lazy"
-                     onerror="this.style.display='none'">
-                <div class="card-score-badge">
-                    ⭐ ${item.score}점
+                <img src="${item.thumbnailUrl}" alt="${item.title}" loading="lazy"
+                     onerror="this.src='https://i.ytimg.com/vi/${item.videoId}/hqdefault.jpg'">
+                <div class="card-play-overlay">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <circle cx="24" cy="24" r="24" fill="rgba(0,0,0,0.65)"/>
+                        <path d="M19 15l14 9-14 9V15z" fill="#fff"/>
+                    </svg>
+                </div>
+                <div class="card-duration-badge">
+                    ⏱ ${item.duration}
                 </div>
             </div>
             <div class="card-body">
-                <span class="card-badge ${badgeClass}">${badgeLabel}</span>
                 <h3 class="card-title">${item.title}</h3>
-                <p class="card-description">${item.description}</p>
+                <div class="card-meta">
+                    <span class="card-channel">📺 ${item.channelName}</span>
+                    <span class="card-date">📅 ${item.publishedAt}</span>
+                </div>
                 <div class="card-footer">
-                    <span class="card-source">📰 ${item.source}</span>
-                    <span class="card-link-icon">원본 보기 →</span>
+                    ${viewStr ? `<span class="card-views">👁 ${viewStr}</span>` : '<span></span>'}
+                    <span class="card-link-icon">자세히 보기 →</span>
                 </div>
             </div>
         `;
 
+        card.addEventListener('click', () => openModal(index));
         gallery.appendChild(card);
+    });
+}
+
+// ──────── 팝업 모달 ────────
+function openModal(index) {
+    const item = curatedItems[index];
+    if (!item) return;
+
+    const modal = document.getElementById('video-modal');
+    const iframe = document.getElementById('modal-iframe');
+
+    // 유튜브 임베드 URL 설정
+    iframe.src = `https://www.youtube.com/embed/${item.videoId}?autoplay=1&rel=0`;
+
+    // 정보 채우기
+    document.getElementById('modal-title').textContent = item.title;
+    document.getElementById('modal-channel').textContent = `📺 ${item.channelName}`;
+    document.getElementById('modal-date').textContent = `📅 ${item.publishedAt}`;
+    document.getElementById('modal-duration').textContent = `⏱ ${item.duration}`;
+
+    // 키워드
+    const keywordsEl = document.getElementById('modal-keywords');
+    keywordsEl.innerHTML = (item.keywords || [])
+        .map(k => `<span class="keyword-tag">#${k}</span>`)
+        .join('');
+
+    // 추천이유
+    document.getElementById('modal-recommendation').textContent =
+        item.recommendation || '추천 정보가 없습니다.';
+
+    // 요약
+    document.getElementById('modal-summary').textContent =
+        item.summary || '요약 정보가 없습니다.';
+
+    // 팝업 열기
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+    const modal = document.getElementById('video-modal');
+    const iframe = document.getElementById('modal-iframe');
+
+    modal.classList.remove('active');
+    iframe.src = '';
+    document.body.style.overflow = '';
+}
+
+function initModal() {
+    const modal = document.getElementById('video-modal');
+    const closeBtn = document.getElementById('modal-close');
+
+    if (!modal || !closeBtn) return;
+
+    // X 버튼 클릭
+    closeBtn.addEventListener('click', closeModal);
+
+    // 오버레이 클릭 (모달 콘텐츠 외부)
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+    });
+
+    // ESC 키
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.classList.contains('active')) {
+            closeModal();
+        }
     });
 }
 
@@ -304,6 +312,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initDates();
     initStickyNav();
     initAudioPlayer();
-    renderGallery();
+    loadCuratedData();
+    initModal();
     initCTAForm();
 });
