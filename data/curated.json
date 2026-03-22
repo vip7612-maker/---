@@ -1,95 +1,95 @@
 {
-  "date": "2026-03-22",
+  "date": "2026-03-23",
   "items": [
     {
       "title": "\"베트남 한국어 교육 올비아로\"…K-에듀테크 글로벌 진출",
-      "description": "MTN 머니투데이방송에서 보도한 뉴스입니다.",
+      "description": "v.daum.net에서 보도한 뉴스입니다.",
       "thumbnail": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&h=340&fit=crop",
       "badge": "core",
       "score": 98,
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ucVVKQjBvM2l0d3RBOTR2Vi1YVUNpalZNUWRFMkFFZHlKQ3N4akFVRnR4Y1h1SHdLa1ZJcmN5eEhTVTQwVU81b0JhR0JfSXRVeHY5ajFuejk4NnZDRlpRcHZCUmE?oc=5",
-      "source": "MTN 머니투데이방송"
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9uZ01hbm0tVmNKWGlpcnpJRTZJUVQxazF5SzRLYmNqYk1ibkl1MUE0bjUzRUdaR3liOTNITlNuN0pYcGpEQkoxZmh3YnY0NVU?oc=5",
+      "source": "v.daum.net"
+    },
+    {
+      "title": "한림대·춘천교대, 고등교육 에듀테크 소프트랩 구축 '맞손'",
+      "description": "연합뉴스에서 보도한 뉴스입니다.",
+      "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=340&fit=crop",
+      "badge": "core",
+      "score": 95,
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HRThUZi12SkdHbURqTHVtdU1NOFJjckI2cGNrNU9fWElvTHFPUWMtQmt3RnhBdjJXTVdsWTlNU2RKMmtCMkFmbFMyb0FGOFUwSThxZG93UXlUT03SAWBBVV95cUxNVnVCUXZ1clk3ZnBLMVNNZmlKMFkzbEhkTDFRNFR2bTNpeU1YOXcxVGtwN2hkVUJmbEltcVlPcXdOcWNfY185bFFlb1VLWHRFWXBMb0ZfRmNJM1BQMTB4c0g?oc=5",
+      "source": "연합뉴스"
+    },
+    {
+      "title": "한림대-춘천교대, AI 기반 고등교육 혁신 위한 ‘에듀테크 거점’ 구축 합의",
+      "description": "한국대학신문에서 보도한 뉴스입니다.",
+      "thumbnail": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=340&fit=crop",
+      "badge": "core",
+      "score": 92,
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ZUnBRV2V1ci1qR2Z5ZGpzQXRpaUpaVDBPNVZYdXFnYlRIRXlWaUpWQnZjNWNpeE8ybUhjX0EyNVJYc1VQUEw2bXN6bnBhM3p6X3J5eWdCdk1vY3J2TEtKbHRZcy0xZw?oc=5",
+      "source": "한국대학신문"
+    },
+    {
+      "title": "한국교통대-충주시 어린이날추진위, 에듀테크 확산 업무협약",
+      "description": "중도일보에서 보도한 뉴스입니다.",
+      "thumbnail": "https://images.unsplash.com/photo-1588072432836-e10032774350?w=600&h=340&fit=crop",
+      "badge": "core",
+      "score": 89,
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE94R29ZekQtb3lUaUNhdnI4NWp0X3doV1FzcmtobnkxUlE3a1drSnZZdE8zT0FQdEJEWjZBeUIyTFhxNTNkRWZJekhtQ2M5NHc2TE5YajUxVG55ZTJ2ck50ZlJJR3U?oc=5",
+      "source": "중도일보"
     },
     {
       "title": "정읍교육지원청, 정보교육지원단 모집…\"디지털 전환\"",
       "description": "뉴시스에서 보도한 뉴스입니다.",
-      "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=340&fit=crop",
-      "badge": "core",
-      "score": 95,
+      "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=340&fit=crop",
+      "badge": "ref",
+      "score": 86,
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE96amZUeFJhcWZEVDJNMUZBVXBrSTd6NUNWNjgtc1hpSjcySDlDZ0tuMTBpUXJmTHZoSUdwUlV1bDRNNzNwUmprTUZuaUlQRUdoRW02ZjBwS0NEVFBUVTlraQ?oc=5",
       "source": "뉴시스"
     },
     {
       "title": "Nguyen Van Hien 장군이 포병학교를 시찰하고 있습니다.",
       "description": "Vietnam.vn에서 보도한 뉴스입니다.",
-      "thumbnail": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=340&fit=crop",
-      "badge": "core",
-      "score": 92,
+      "thumbnail": "https://images.unsplash.com/photo-1655720828018-edd71de41e19?w=600&h=340&fit=crop",
+      "badge": "ref",
+      "score": 83,
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb1k4UEtTYlVTbjdBOXljT2tVVjA5SHNSbWFNWlhuY3ZvR2JlWk4wZVczMS1nd2JnUFV1dGVIV3FHTWRwczdja0Jra0tXcTdoRzE3RzNJWWQxSXVDM2FxVzBmRFYwUU9MOXdiMFBidnlOdjhJVzY3Yl9NaVJNZW13UnV1ZzhTZTMxYTlMX1V0bnRkNVhGM1o0?oc=5",
       "source": "Vietnam.vn"
     },
     {
-      "title": "AI 인재 양성 본격화…과기·교육부 '원팀' 가동",
-      "description": "연합뉴스에서 보도한 뉴스입니다.",
-      "thumbnail": "https://images.unsplash.com/photo-1588072432836-e10032774350?w=600&h=340&fit=crop",
-      "badge": "core",
-      "score": 89,
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE91WXNUMFlNeXpUQWJ4YmlydmE4OUNtbmtiNTRBRlNXcVhibDdFeTJBa0hhaVhNRDZhc2hrdHd4MGR4M0J3ZFVIWUk5VVRXbkkya2JZOEM3R2IzUDDSAWBBVV95cUxNcFQtRmZ0eTJ4TWNqVjlYaDNxazBHcnVoalhwcjJJdXA0REQyUFZoLU14dHRqbElTbTJPOGFyUFNZSkZMRjlSXzRNUnpCS0JTeHBlbjJrc01pNXB6WG1MVzU?oc=5",
-      "source": "연합뉴스"
-    },
-    {
-      "title": "‘교사 잡아라’… 공교육 AI 시장으로 몰리는 에듀테크·빅테크",
-      "description": "IT조선에서 보도한 뉴스입니다.",
-      "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=340&fit=crop",
-      "badge": "ref",
-      "score": 86,
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8taGdVbnBxc3FQdzBjTGIyYUt1Nk1RbVN4ellLaE1UR25JLWo3X2ZqREdMZU5WOXBVNjNZNlBqR2RZRThMTUZqek5wTGJSSTBCXzd3TXJtM3YyU3ZTelBGZVBoa0FxbzRUWHVSQXVKLUfSAXRBVV95cUxORnNJVU04UGVkY211WGdQLWVKb0JPX1RHUkkydnlxX2RlY25GWExWX3ZxX1FrcmpkWEo1cG1YaXhjb2VlbHhxZjlIZW9qdVNUSlgydDAwM1MzUWdzd19IYVl0SDVWbG1hVi02RmR4X2xFdTBWMg?oc=5",
-      "source": "IT조선"
-    },
-    {
-      "title": "[스쿨넷 20주년 성과] 교육 디지털전환(DX)에서 AI전환(AX)까지 '기반망' 역할 강화",
-      "description": "전자신문에서 보도한 뉴스입니다.",
-      "thumbnail": "https://images.unsplash.com/photo-1655720828018-edd71de41e19?w=600&h=340&fit=crop",
-      "badge": "ref",
-      "score": 83,
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAxanJvRzB0NVE5OUhmeGJuaDFZZUFnb3dwZTh1a05kM3UybzQzeXdvMkFRS3czWUtZRFp4Ymx5bGZjQVdCZG1tREZqck5VUQ?oc=5",
-      "source": "전자신문"
-    },
-    {
-      "title": "‘남 일 같던 디지털 연수’ 넘어 ‘다음 연수를 먼저 제안하는 학교’로… 문산동중학교, 찾아가는 학교 컨설팅 3기 성료",
-      "description": "국민기자뉴스에서 보도한 뉴스입니다.",
+      "title": "찰칵! 30초 만에 수행평가 '고득점 로드맵' 얻는 방법 [팩플]",
+      "description": "중앙일보에서 보도한 뉴스입니다.",
       "thumbnail": "https://images.unsplash.com/photo-1523050854058-8df90110c476?w=600&h=340&fit=crop",
       "badge": "ref",
       "score": 80,
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tMDBpdjFDekJDM2NzQjRwUndTeWJZcnJ0Z1VyOEd2aFlnTXdvdjgwQTRYdDNfTkJERkNCNVBaazYtUWdxdk5xejMtYnd3ZjNKM2s0UkFuTHZrT1BvM2FaY0NxUdIBZ0FVX3lxTE1Cb2FBNnBLcG5CX1o1QzdqSnZPb2JUSHI5cklBMmJPMTNMdllZZ2F5VkZRby1ORXl4RUQteWVMQ1R0QXJVUUF6QldrUnlHWVM4ak44Q2prcERld21uZm1QOWhfTDBQUVk?oc=5",
-      "source": "국민기자뉴스"
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56clR0d09tdXZuZlVyZUR4Zzcya2x6ZFVBTWt6LUtad2xwNVFmY3ZmSldlR2RqbWYySk92UzROZTdtNW9DNXg0SGhZUjROS2NaZWJpV0Z3?oc=5",
+      "source": "중앙일보"
     },
     {
-      "title": "[에듀테크+] \"수업 준비, AI 조교와 함께\"…효율성에 올인",
-      "description": "디지털데일리에서 보도한 뉴스입니다.",
+      "title": "고려사이버대, ‘생성형 AI 활용 지침’ 제정...교육·연구·행정 전반에 윤리적 AI 활용 기준 마련",
+      "description": "인공지능신문에서 보도한 뉴스입니다.",
       "thumbnail": "https://images.unsplash.com/photo-1626379953822-baec19c3accd?w=600&h=340&fit=crop",
       "badge": "ref",
       "score": 77,
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LSm5UcmpUME5TNzRLWHBQdUpSZkdVNDlyRFFuV0YwS3VUWnI5OEhuNV9qWkhtV24yMC1oWVExVmphVHQ5d21CaGNVeWRCVGFFblkzY2hJLWZ3dy01VG1JUnVrckE?oc=5",
-      "source": "디지털데일리"
-    },
-    {
-      "title": "\"동화, 아이의 얼굴과 부모의 목소리로 완성\"... 에듀테크 트리플 AI 결합으로 현실과 가상 잇는다",
-      "description": "인공지능신문에서 보도한 뉴스입니다.",
-      "thumbnail": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&h=340&fit=crop",
-      "badge": "ref",
-      "score": 74,
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8ySXR2UWpiVEdZcXNwaUdTUlhiQUVWV3hMM2hIU0VMZDJzM182Y3VRaXZnSE1tazM0SHZJWnVmWDY4YWpocmx5eHljS2NtQ09GQlJWbUFyMTR0WUg0UnJGNWk2NTl3NlU?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TYlpjeXozRGRWekE1UFN5aGE5bUxJMFBWSGVHRklVT0dIRC1ZOWU1S1UwUEhTZ2lmM1piM3Q4dTNBX1BKSFZZWEJJOGVTY01vSnZScHI1WlF3LXNaOVV2TEw1WFNZYVE?oc=5",
       "source": "인공지능신문"
     },
     {
-      "title": "한국교통대-충주성심학교, 특수교육 AI·디지털 전환 협력 강화",
-      "description": "충북일보에서 보도한 뉴스입니다.",
+      "title": "건양대 SW중심대학사업단 \"AI·제약바이오 미래 인재 양성 교육모델 구축\"",
+      "description": "충청비즈에서 보도한 뉴스입니다.",
+      "thumbnail": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=600&h=340&fit=crop",
+      "badge": "ref",
+      "score": 74,
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE42R0pSZXNla2VBQmFLajBUc2s5NFBaVXVXWGRVSjRsY25LXzJDeTdyUVN1TW50WnZ2NFdCNjVTbFhyYXhwN1Z1QjhtbUg2X0ZSWXFnT3Zpc3d1U29tTFBhOWNB?oc=5",
+      "source": "충청비즈"
+    },
+    {
+      "title": "제주시, 전 직원 대상 생성형 AI 활용 교육 실시",
+      "description": "뉴스라인제주에서 보도한 뉴스입니다.",
       "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=340&fit=crop",
       "badge": "ref",
       "score": 71,
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1DblJUaVVsc0dDM2xSbXl2RzZleHR2d2FwOGphYTNibUU2NjM1Rm5hUmp0aDJrYTRSYVV4RTVZTHc4d3ZUZFpiMmFIenFPVVY3eEtYZWEyRHM1cWhWcUp5b0Fn?oc=5",
-      "source": "충북일보"
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9JZW5wSV9uYzRZNnd6NnBNcE8zaml1U0VWX3dCQmhGRHZzcEZoSGVmYktiZVhuY2pRbnNfWl9PbVpSWUhsdmoydTk5cnExblZGVW5iTTlfeC1zNmlGQlRIQk5jQTNTZkxDU0lGWE5FRQ?oc=5",
+      "source": "뉴스라인제주"
     }
   ]
 }
