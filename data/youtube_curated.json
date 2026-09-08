@@ -1,6 +1,26 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "items": [
+    {
+      "videoId": "6Pfvhy9sevw",
+      "title": "이제는 모르면 부끄러운 AI 필수 기초 지식",
+      "channelName": "경제학 똑똑",
+      "publishedAt": "",
+      "duration": "16:49",
+      "durationSeconds": 1009,
+      "thumbnailUrl": "https://i.ytimg.com/vi/6Pfvhy9sevw/hqdefault.jpg",
+      "keywords": [
+        "이제는",
+        "모르면",
+        "부끄러운",
+        "AI",
+        "필수"
+      ],
+      "recommendation": "경제학 똑똑 채널에서 제공하는 '이제는 모르면 부끄러운 AI 필수 기초 지식' 관련 영상입니다. 도시 하나가 1년 동안 쓰는 전기, AI 데이터센터 단 한 곳이 모두 삼켜버리고 있습니다. 울산 전체 전력 = AI 팩토리 1곳 이게 과장이라고 ...",
+      "summary": "도시 하나가 1년 동안 쓰는 전기, AI 데이터센터 단 한 곳이 모두 삼켜버리고 있습니다. 울산 전체 전력 = AI 팩토리 1곳 이게 과장이라고 ...",
+      "viewCount": 193842,
+      "searchKeyword": "AI 교육"
+    },
     {
       "videoId": "cMb2_34RxcI",
       "title": "제미나이 인공지능 1시간에 마스터 하기 _기본 사용법 부터 실제 활용하는 방법  _Google Gemini training on how to use it in an hour",
@@ -18,87 +38,67 @@
       ],
       "recommendation": "IB 96 채널에서 제공하는 '제미나이 인공지능 1시간에 마스터 하기 _기본 사용법 부터 실제 활용하는' 관련 영상입니다. IB96 유튜브 쇼핑몰에서 쉽게 컴퓨터 프로그램을 USB로 주문해서 배우세요 https://www.youtube.com/@IB9696/store IB96 채널에 ...",
       "summary": "IB96 유튜브 쇼핑몰에서 쉽게 컴퓨터 프로그램을 USB로 주문해서 배우세요  IB96 채널에 ...",
-      "viewCount": 446574,
+      "viewCount": 448104,
       "searchKeyword": "AI 교육"
     },
     {
-      "videoId": "4InJ2GTjcI8",
-      "title": "[9월 ON명사특강] AI 시대, 공직 윤리의 기준 및 공직자의 필수 AI 역량",
-      "channelName": "인재교육tv",
+      "videoId": "Wb-egpA7AFA",
+      "title": "[벙커1특강] 박태웅 AI 강의 1부",
+      "channelName": "딴지방송국",
       "publishedAt": "",
-      "duration": "2:17:02",
-      "durationSeconds": 8222,
-      "thumbnailUrl": "https://i.ytimg.com/vi/4InJ2GTjcI8/hqdefault.jpg",
+      "duration": "1:06:36",
+      "durationSeconds": 3996,
+      "thumbnailUrl": "https://i.ytimg.com/vi/Wb-egpA7AFA/hqdefault.jpg",
       "keywords": [
-        "ON명사특강",
+        "벙커",
+        "특강",
+        "박태웅",
         "AI",
-        "시대",
-        "공직",
-        "윤리의"
+        "강의"
       ],
-      "recommendation": "인재교육tv 채널에서 제공하는 '[9월 ON명사특강] AI 시대, 공직 윤리의 기준 및 공직자의 필수 A' 관련 영상입니다. 명사특강 #공직자윤리 #필수ai역량 #ai윤리 #ai리터러시 「온라인 명사특강」이번 주제는 \"AI 윤리, AI 역량\" 입니다 ! [1부] ...",
-      "summary": "명사특강     「온라인 명사특강」이번 주제는 \"AI 윤리, AI 역량\" 입니다 ! [1부] ...",
-      "viewCount": 1807,
+      "recommendation": "딴지방송국 채널에서 제공하는 '[벙커1특강] 박태웅 AI 강의 1부' 관련 영상입니다. IT 현자! 한빛미디어 박태웅 의장의 '박태웅의 AI 강의' 출간 기념 벙커1 특강 1부 ▷ AI 특강 2부 이어보기 ...",
+      "summary": "IT 현자! 한빛미디어 박태웅 의장의 '박태웅의 AI 강의' 출간 기념 벙커1 특강 1부 ▷ AI 특강 2부 이어보기 ...",
+      "viewCount": 690399,
       "searchKeyword": "AI 교육"
     },
     {
-      "videoId": "rTjAWstusiM",
-      "title": "[EBS 특집 포럼] AI 시대, 나를 설계하는 교육｜대한민국 교육의 미래를 묻다 (Y교육박람회 특집) #양천구청",
-      "channelName": "EBSCulture (EBS 교양)",
+      "videoId": "J3RrJnx8Yvs",
+      "title": "This is free? The Ultimate Guide to Free AI | AI for Absolute Beginners | Gemini",
+      "channelName": "디지털 해결사",
       "publishedAt": "",
-      "duration": "45:00",
-      "durationSeconds": 2700,
-      "thumbnailUrl": "https://i.ytimg.com/vi/rTjAWstusiM/hqdefault.jpg",
+      "duration": "25:51",
+      "durationSeconds": 1551,
+      "thumbnailUrl": "https://i.ytimg.com/vi/J3RrJnx8Yvs/hqdefault.jpg",
       "keywords": [
-        "EBS",
-        "특집",
-        "포럼",
-        "AI",
-        "시대"
+        "This",
+        "is",
+        "free",
+        "The",
+        "Ultimate"
       ],
-      "recommendation": "EBSCulture (EBS 교양) 채널에서 제공하는 '[EBS 특집 포럼] AI 시대, 나를 설계하는 교육｜대한민국 교육의 미' 관련 영상입니다. 인간의 지능을 넘어서는 거대한 AI의 파도”를 경험하고 있는 현재 사회적 분위기에서 대한민국의 교육의 현 주소와 나아가야 할 방향을 ...",
-      "summary": "인간의 지능을 넘어서는 거대한 AI의 파도”를 경험하고 있는 현재 사회적 분위기에서 대한민국의 교육의 현 주소와 나아가야 할 방향을 ...",
-      "viewCount": 5874,
+      "recommendation": "디지털 해결사 채널에서 제공하는 'This is free? The Ultimate Guide to Free' 관련 영상입니다. Are you feeling confused because there are so many AIs?\n\nIt’s hard to keep track of which ones are free and which ones are ...",
+      "summary": "Are you feeling confused because there are so many AIs?\n\nIt’s hard to keep track of which ones are free and which ones are ...",
+      "viewCount": 275805,
       "searchKeyword": "AI 교육"
     },
     {
-      "videoId": "IIG4ybwoHaQ",
-      "title": "AI 시대, 대학교육의 재설계 (FULL ver.)",
-      "channelName": "KAIST",
+      "videoId": "U4fwugv9nYY",
+      "title": "[Full] AI보다 먼저 가르쳐야 할 것은 따로 있다?｜부모 공감 토크콘서트 (With 김상욱 교수)",
+      "channelName": "TBC",
       "publishedAt": "",
-      "duration": "2:28:32",
-      "durationSeconds": 8912,
-      "thumbnailUrl": "https://i.ytimg.com/vi/IIG4ybwoHaQ/hqdefault.jpg",
+      "duration": "55:13",
+      "durationSeconds": 3313,
+      "thumbnailUrl": "https://i.ytimg.com/vi/U4fwugv9nYY/hqdefault.jpg",
       "keywords": [
-        "AI",
-        "시대",
-        "대학교육의",
-        "재설계",
-        "FULL"
+        "Full",
+        "AI보다",
+        "먼저",
+        "가르쳐야",
+        "것은"
       ],
-      "recommendation": "KAIST 채널에서 제공하는 'AI 시대, 대학교육의 재설계 (FULL ver.)' 관련 영상입니다. KAIST 국가미래전략기술 정책연구소 워크숍.",
-      "summary": "KAIST 국가미래전략기술 정책연구소 워크숍.",
-      "viewCount": 2440,
-      "searchKeyword": "AI 교육"
-    },
-    {
-      "videoId": "o8dxq2hlZGs",
-      "title": "[Gyeonggi Education STUDY] Curriculum Reform, AI-Specialized Teachers, and AI Education Campuses ...",
-      "channelName": "100%_100PRO",
-      "publishedAt": "",
-      "duration": "42:21",
-      "durationSeconds": 2541,
-      "thumbnailUrl": "https://i.ytimg.com/vi/o8dxq2hlZGs/hqdefault.jpg",
-      "keywords": [
-        "Gyeonggi",
-        "Education",
-        "STUDY",
-        "Curriculum",
-        "Reform"
-      ],
-      "recommendation": "100%_100PRO 채널에서 제공하는 '[Gyeonggi Education STUDY] Curriculum Re' 관련 영상입니다. #GyeonggiEducationTransformation #PolicyTask1_1 #GyeonggiAIEducationInstitute #GyeonggiCurriculumRevision ...",
-      "summary": "...",
-      "viewCount": 17,
+      "recommendation": "TBC 채널에서 제공하는 '[Full] AI보다 먼저 가르쳐야 할 것은 따로 있다?｜부모 공감 토크' 관련 영상입니다. 부모 공감 토크콘서트 방송: 251220 #부모 #교육 #공감토크콘서트 #부모토크콘서트 #김상욱 #물리학자김상욱 #ai교육 #토크 ...",
+      "summary": "부모 공감 토크콘서트 방송: 251220         ...",
+      "viewCount": 279896,
       "searchKeyword": "AI 교육"
     },
     {
@@ -122,26 +122,6 @@
       "searchKeyword": "에듀테크"
     },
     {
-      "videoId": "kWaxz0iSSWo",
-      "title": "[굥샘의 에듀테크] 캔바 AI 기능 100프로 활용하기",
-      "channelName": "굥샘의 교육만물상",
-      "publishedAt": "",
-      "duration": "1:45",
-      "durationSeconds": 105,
-      "thumbnailUrl": "https://i.ytimg.com/vi/kWaxz0iSSWo/hqdefault.jpg",
-      "keywords": [
-        "굥샘의",
-        "에듀테크",
-        "캔바",
-        "AI",
-        "기능"
-      ],
-      "recommendation": "굥샘의 교육만물상 채널에서 제공하는 '[굥샘의 에듀테크] 캔바 AI 기능 100프로 활용하기' 관련 영상입니다. 캔바 AI 기능 100프로 활용하기.",
-      "summary": "캔바 AI 기능 100프로 활용하기.",
-      "viewCount": 90,
-      "searchKeyword": "에듀테크"
-    },
-    {
       "videoId": "6_EwQiDVau4",
       "title": "[Education Encyclopedia] Is EdTech Good for Education? / Technology Is Just a Tool, Not the Essen...",
       "channelName": "박시영TV",
@@ -158,7 +138,27 @@
       ],
       "recommendation": "박시영TV 채널에서 제공하는 '[Education Encyclopedia] Is EdTech Good ' 관련 영상입니다. ParksiyoungTV.com https://parksiyoungtv.com/\n\n* Donation Account Info: IBK 221-456011-04-028 Parksiyoung Co., Ltd.\n\n* ARS ...",
       "summary": "ParksiyoungTV.com \n\n* Donation Account Info: IBK 221-456011-04-028 Parksiyoung Co., Ltd.\n\n* ARS ...",
-      "viewCount": 2535,
+      "viewCount": 2544,
+      "searchKeyword": "에듀테크"
+    },
+    {
+      "videoId": "kWaxz0iSSWo",
+      "title": "[굥샘의 에듀테크] 캔바 AI 기능 100프로 활용하기",
+      "channelName": "굥샘의 교육만물상",
+      "publishedAt": "",
+      "duration": "1:45",
+      "durationSeconds": 105,
+      "thumbnailUrl": "https://i.ytimg.com/vi/kWaxz0iSSWo/hqdefault.jpg",
+      "keywords": [
+        "굥샘의",
+        "에듀테크",
+        "캔바",
+        "AI",
+        "기능"
+      ],
+      "recommendation": "굥샘의 교육만물상 채널에서 제공하는 '[굥샘의 에듀테크] 캔바 AI 기능 100프로 활용하기' 관련 영상입니다. 캔바 AI 기능 100프로 활용하기.",
+      "summary": "캔바 AI 기능 100프로 활용하기.",
+      "viewCount": 91,
       "searchKeyword": "에듀테크"
     },
     {
@@ -178,27 +178,27 @@
       ],
       "recommendation": "아산나눔재단 채널에서 제공하는 '\"창업 추천해요?\" 미국 타임지 선정 세계 최고 에듀테크 스타트업 창업가' 관련 영상입니다. 2024 아산 유스프러너 데모데이: 스타트업 창업가 강연] 매스프레소(콴다) 이용재 대표 전 세계 9천만 명의 학생들이 사용하는 글로벌 ...",
       "summary": "2024 아산 유스프러너 데모데이: 스타트업 창업가 강연] 매스프레소(콴다) 이용재 대표 전 세계 9천만 명의 학생들이 사용하는 글로벌 ...",
-      "viewCount": 28450,
+      "viewCount": 28452,
       "searchKeyword": "에듀테크"
     },
     {
-      "videoId": "aZ1on3KxKG0",
-      "title": "저학년 에듀테크 활용 수업 UNBOXING AI 음악, 미술편_7분임_김소현",
-      "channelName": "경기교사크리에이터",
+      "videoId": "ocFJNa8GsHo",
+      "title": "에듀테크 200% 활용법, 제대로 쓰면 최고의 과외선생님!｜ #엄마Q #헬로에듀",
+      "channelName": "헬로tv뉴스",
       "publishedAt": "",
-      "duration": "11:13",
-      "durationSeconds": 673,
-      "thumbnailUrl": "https://i.ytimg.com/vi/aZ1on3KxKG0/hqdefault.jpg",
+      "duration": "20:25",
+      "durationSeconds": 1225,
+      "thumbnailUrl": "https://i.ytimg.com/vi/ocFJNa8GsHo/hqdefault.jpg",
       "keywords": [
-        "저학년",
         "에듀테크",
-        "활용",
-        "수업",
-        "UNBOXING"
+        "활용법",
+        "제대로",
+        "쓰면",
+        "최고의"
       ],
-      "recommendation": "경기교사크리에이터 채널에서 제공하는 '저학년 에듀테크 활용 수업 UNBOXING AI 음악, 미술편_7분임_김' 관련 영상입니다. 저학년 #에듀테크 AI 활용 수업 #경기교사크리에이터 #경기도교육청 #gt_c #7분임 #루키 #1기 #경기교육 #교수학습 #경기도 ...",
-      "summary": "저학년  AI 활용 수업          ...",
-      "viewCount": 1003,
+      "recommendation": "헬로tv뉴스 채널에서 제공하는 '에듀테크 200% 활용법, 제대로 쓰면 최고의 과외선생님!｜ #엄마Q #' 관련 영상입니다. ON AIR   매주 월요일 오후 2시 LG헬로비전 지역채널 25번 '헬로 Edu' 우리 아이 교육에 대한 영리한 질문, 엄마 기자가 묻고 전문가 ...",
+      "summary": "ON AIR   매주 월요일 오후 2시 LG헬로비전 지역채널 25번 '헬로 Edu' 우리 아이 교육에 대한 영리한 질문, 엄마 기자가 묻고 전문가 ...",
+      "viewCount": 377,
       "searchKeyword": "에듀테크"
     }
   ]
